@@ -1,0 +1,24 @@
+{
+  "name": "@emoriiin979/emo-blog",
+  "version": "0.1.0",
+  "description": "Reusable wrapper classes and utility modules for multiple projects.",
+  "author": "emoriiin979",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "d1-setup": "wrangler d1 execute emoblog --local --file=./schema.sql",
+    "dev": "wrangler dev --local --ip 0.0.0.0",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.12.12"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260410.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16",
+    "wrangler": "^4.81.1"
+  }
+}

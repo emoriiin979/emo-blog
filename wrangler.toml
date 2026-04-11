@@ -1,0 +1,12 @@
+name = "emo-blog"
+main = "src/index.ts"
+compatibility_date = "2026-04-10"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "emoblog"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "emoblog"
